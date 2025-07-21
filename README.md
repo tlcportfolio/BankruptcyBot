@@ -1,6 +1,7 @@
-# 📦 UiPath Bot – REFramework Template: Invoice Processor
+# 📦 UiPath Bot – Identification Bot
+# Stack: UiPath, .Net, SQL, HTML, XML, LINQ, API, GitHub
 
-This project demonstrates an enterprise-grade UiPath automation built using the **Robotic Enterprise Framework (REFramework)**. The bot extracts, validates, and logs invoice data from a specified input folder, simulates a line-item matching process, and logs the results into a transaction log.
+This project demonstrates an enterprise-grade UiPath automation built using the . The bot extracts, validates, and logs invoice data from a specified input folder, simulates a line-item matching process, and logs the results into a transaction log. Process 360,000–500,000 bankruptcy cases annually, boosting settlement amounts for a 150% ROI growth post-implementation. Undertook system upgrades and production support for 20 upgrades and functions improving processing timelines by 30% and generate over 30 million dollars in revenue for clients per year.
 
 ---
 
