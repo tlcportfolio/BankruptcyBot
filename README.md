@@ -35,26 +35,31 @@ This project follows the following structure:
 │   ├── Clean_MainProcess.xaml
 │   └── SendEmails.xaml
 ├── Initialize
-│   └── Process.xaml
-│   └── Process.xaml
-│   └── Process.xaml
+│   ├── Config_Setup.xaml
+│   ├── Enterprise_Portal_Login.xaml
+│   ├── Initialize_Settings_Apps.xaml
+│   ├── LogInProcess.xaml
+│   └── MFA.xaml
 ├── MIS
-│   └── Process.xaml
-│   └── Process.xaml
-│   └── Process.xaml
+│   └── MIS_MainProcess.xaml
 ├── PACER
-│   └── Process.xaml
-│   └── Process.xaml
-│   └── Process.xaml
+│   ├── Docket_MainProcess.xaml
+│   ├── Pacer_BuildingMainTable.xaml
+│   ├── Pacer_DataExtraction.xaml
+│   ├── Pacer_Login.xaml
+│   ├── Pacer_NavigateToQueue.xaml
+│   ├── Pacer_QueueIllegalCharacterRemoval.xaml
+│   ├── Pacer_QueueRetrieval.xaml
+│   └── Pacer_Retrieval.xaml
 ├── PECOS
-│   └── Process.xaml
-│   └── Process.xaml
-│   └── Process.xaml
+│   └── PECOS.xaml
+│   └── PECOS_ProcessEIN.xaml
 ├── Process
-│   └── Process.xaml
-│   └── Process.xaml
-│   └── Process.xaml
-```
+│   └── TakeScreenshot.xaml
+│   └── StageConfirmation.xaml
+└── Main.xaml
+└── Project.json
+
 
 ---
 
@@ -62,9 +67,7 @@ This project follows the following structure:
 All configuration values are stored in `Data/Config.xlsx`, including:
 - Input/Output folder paths
 - Exception handling settings
-- Application credentials (via Orchestrator Assets)
-
----
+- Application credentials 
 
 ## 🔄 Workflow Overview
 
@@ -95,15 +98,6 @@ All configuration values are stored in `Data/Config.xlsx`, including:
 
 ---
 
-## 🧪 Testing
-
-Use the sample files provided in `Data/InputInvoices/` to test various scenarios:
-- Valid invoice
-- Invalid format
-- Missing data
-
----
-
 ## 📦 Dependencies
 - UiPath.Database.Activities - v1.7.1
 - UiPath.Credentials.Activities - v2.0.0 
@@ -116,15 +110,9 @@ Use the sample files provided in `Data/InputInvoices/` to test various scenarios
 
 ---
 ## 📝 Notes
-This bot is designed to be modular and scalable. It can be extended to support:
-- Integration with ERP systems (via API)
-- OCR-based invoice processing
-- Queue-based dispatch/performer model
-
----
+This bot is designed to be modular and scalable.
 
 ## 📬 Contact
-
 For questions or code access, please contact:  
 📧 terrylamcao@gmail.com  
 🔗 [LinkedIn](https://linkedin.com/in/terrylamcao)
