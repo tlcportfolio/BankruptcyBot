@@ -10,19 +10,44 @@ This project demonstrates an enterprise-grade UiPath automation built using a cu
 This project follows the following structure:
 
 ```
-📂 InvoiceProcessor_REFramework/
-├── Framework/
-│   ├── GetAppCredentials.xaml
-│   ├── InitAllApplications.xaml
-│   └── InitAllSettings.xaml
+📂 Bankruptcy_Identification/
 ├── Data/
+│   ├── Analytics.csv
+│   ├── BankruptcyReport.xlsx
+│   ├── ChaptersQueue.xlsx
+│   ├── BankruptcyReport.xlsx
+│   ├── Config.xlsx
+│   ├── CourtCrosswalk.xlsx
+│   └── Emails.xlsx
+├── BCRS/
 │   ├── Config.xlsx
 │   └── InputInvoices/
-├── Process/
+├── BOX/
 │   └── Process.xaml
-├── Main.xaml
-├── Project.json
-└── README.md
+├── Finalize
+│   └── Process.xaml
+│   └── Process.xaml
+│   └── Process.xaml
+├── Initialize
+│   └── Process.xaml
+│   └── Process.xaml
+│   └── Process.xaml
+├── MIS
+│   └── Process.xaml
+│   └── Process.xaml
+│   └── Process.xaml
+├── PACER
+│   └── Process.xaml
+│   └── Process.xaml
+│   └── Process.xaml
+├── PECOS
+│   └── Process.xaml
+│   └── Process.xaml
+│   └── Process.xaml
+├── Process
+│   └── Process.xaml
+│   └── Process.xaml
+│   └── Process.xaml
 ```
 
 ---
@@ -74,14 +99,17 @@ Use the sample files provided in `Data/InputInvoices/` to test various scenarios
 ---
 
 ## 📦 Dependencies
-
-- UiPath.System.Activities
-- UiPath.Excel.Activities
-- UiPath.Mail.Activities (optional)
+- UiPath.Database.Activities - v1.7.1
+- UiPath.Credentials.Activities - v2.0.0 
+- UiPath.PDF.Activities - v3.10.1
+- UiPath.Mail.Activities - v1.12.3
+- UiPath.WebAPI.Activities - v2.20.2
+- UiPath.UiAutomation.Activities - v22.10.4
+- UiPath.System.Activities - v22.10.5
+- Microsoft 365 - v2.2.4
 
 ---
 ## 📝 Notes
-
 This bot is designed to be modular and scalable. It can be extended to support:
 - Integration with ERP systems (via API)
 - OCR-based invoice processing
