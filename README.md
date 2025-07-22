@@ -20,14 +20,20 @@ This project follows the following structure:
 │   ├── CourtCrosswalk.xlsx
 │   └── Emails.xlsx
 ├── BCRS/
-│   ├── Config.xlsx
-│   └── InputInvoices/
+│   ├── BCRS_Main.xaml
+│   ├── BCRS_DataScraping.xaml
+│   ├── BCRS_GetHICN.xaml
+│   ├── BCRS_CheckSingleOrMultipleCase.xaml
+│   └── BCRS_ProcessHICN.xaml
 ├── BOX/
-│   └── Process.xaml
+│   ├── Box_AnalyticsReport.xaml
+│   ├── Box_Archive.xaml
+│   ├── Box_Login.xaml
+│   └── Box_MainProcess.xaml
 ├── Finalize
-│   └── Process.xaml
-│   └── Process.xaml
-│   └── Process.xaml
+│   ├── AnalyticReport.xaml
+│   ├── Clean_MainProcess.xaml
+│   └── SendEmails.xaml
 ├── Initialize
 │   └── Process.xaml
 │   └── Process.xaml
