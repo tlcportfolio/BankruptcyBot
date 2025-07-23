@@ -76,23 +76,45 @@ All configuration values are stored in `Data/Config.xlsx`, including:
 ## 🔄 Workflow Overview
 
 ### 1. **Init State**
-- Reads config file and initializes applications (if needed)
-- Retrieves credentials from Orchestrator
+- Reads config file and initializes applications
 
 ### 2. **PACER**
-- Scans `InputInvoices/` directory for `.pdf` or `.xlsx` files
-- Loads filenames into the transaction queue
+- Bot navigates and log in PACER, do PACER searches
+- Updates the Active Config File with the PACER status variables. 
 
 ### 3. **BCRS**
-- Extracts invoice data using Regex and/or Excel activities
-- Performs a dummy line-item match (simulate business logic)
-- Logs results to output or Transaction Log sheet
+- Navigates BCRS webpage and verify if the case’s debtor (Individual) is found on it.
+- Updates Bankruptcy report with findings.
+- Updates the Active Config File with the BCRS status variables. 
 
 ### 4. **PECOS**
-- Closes applications and performs clean-up
+- Navigates PECOS webpage and verify if the case’s debtor (Corporation) is found on it.
+- Updates Bankruptcy report with findings.
+- Updates the Active Config File with the PECOS status variables. 
 
 ---
-### 4. **BCRS**
+### 5 **DOCKET Download**
+- Navigates PECOS webpage and verify if the case’s debtor (Corporation) is found on it.
+
+### 6. **MIS**
+- Navigates PECOS webpage and verify if the case’s debtor (Corporation) is found on it.
+- Updates Bankruptcy report with findings.
+- Updates the Active Config File with the PECOS status variables.
+
+### 7. **Analytic Report**
+- Navigates PECOS webpage and verify if the case’s debtor (Corporation) is found on it.
+- Updates Bankruptcy report with findings.
+- Updates the Active Config File with the PECOS status variables.
+
+### 8. **Send Emails**
+- Navigates PECOS webpage and verify if the case’s debtor (Corporation) is found on it.
+- Updates Bankruptcy report with findings.
+- Updates the Active Config File with the PECOS status variables.
+
+### 8. **Cleap Up process**
+- Navigates PECOS webpage and verify if the case’s debtor (Corporation) is found on it.
+- Updates Bankruptcy report with findings.
+- Updates the Active Config File with the PECOS status variables.
 
 ## 📊 Logs & Exception Handling
 
