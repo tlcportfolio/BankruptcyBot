@@ -1,7 +1,11 @@
 # 📦 UiPath Bot – Identification Bot
 ## Stack: UiPath, .Net, SQL, HTML, XML, LINQ, API, GitHub
 
-This project demonstrates an enterprise-grade UiPath automation built using a custom UiPath process which has a stage like structure and used for bot that runs for several hours. The bot extracts, validates, and logs invoice data from a specified input folder, simulates a line-item matching process, and logs the results into a transaction log. Process 360,000–500,000 bankruptcy cases annually, boosting settlement amounts for a 150% ROI growth post-implementation. Undertook system upgrades and production support for 20 upgrades and functions improving processing timelines by 30% and generate over 30 million dollars in revenue for clients per year.
+This project demonstrates an enterprise-grade UiPath automation built using a custom UiPath process which has a stage like structure and used for bot that runs for several hours. 
+
+The purpose to identify a larger percentage of bankruptcies that concern CMS in a timelier manner in order to drive higher ROI from the bankruptcy analysis process. Additionally, automating this process saves time that would otherwise be spent on manually searching PACER for bankruptcy cases. This will enable CMS personnel to more aggressively pursue recovery in the Chapter 7,11,13 reorganization (amongst other case types), and/or ensure safe transition of patient care. Medicare’s status as an unsecured creditor in bankruptcy necessitates proactive steps to safeguard trust funds. Automating the discovery of bankruptcy cases is the first step to proactively ensuring Medicare interests.
+
+Process 360,000–500,000 bankruptcy cases annually, boosting settlement amounts for a 150% ROI growth post-implementation. Undertook system upgrades and production support for 20 upgrades and functions improving processing timelines by 30% and generate over 30 million dollars in revenue for clients per year.
 
 ---
 
