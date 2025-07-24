@@ -117,10 +117,9 @@ All configuration values are stored in `Data/Config.xlsx`, including:
 - Updates the Active Config File with the PECOS status variables.
 
 ## 📊 Logs & Exception Handling
-
-- Transaction-level exceptions are handled using the built-in `SetTransactionStatus.xaml`
-- Business and system exceptions are logged to Orchestrator
-- Uses Retry mechanism for system exceptions as defined in Config
+- Business and system exceptions are logged to local folder.
+- Log is customized per individual xaml.
+- Uses Retry mechanism for system exceptions as defined in Config.
 
 ---
 
